@@ -6,7 +6,8 @@
   "homepage": "https://panamasumy.github.io/goit-js-hw-11-promisification",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11-promisification/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11-promisification/",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
